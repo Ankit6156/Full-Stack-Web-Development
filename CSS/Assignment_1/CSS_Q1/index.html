@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, 
+initial-scale=1.0"> 
+<title>Assignment</title> 
+<link rel="stylesheet" href="style.css"> 
+<style> 
+/* Internal CSS 
+Note: Internal CSS and External CSS has same Level Priority but they  can cascade to each other that means if it follow top-down approch --> */
+
+.ak{ 
+background-color:rgb(red, green, blue); 
+} 
+.sk-mk{ 
+background-color: rgb(139, 0, 0); 
+} 
+.sk{ 
+background-color: rgb(35, 139, 0); 
+} 
+.bk{ 
+background-color: blueviolet; 
+} 
+</style> 
+</head> 
+<body> 
+     <!-- Inline CSS -->
+    <!-- Inline CSS has more Priority than External and Internal CSS -->
+<div style="background-color:  blue;" 
+class="ak">Ankit</div> 
+<div style="background-color:  aqua;" 
+class="sk">Sonu</div> 
+<div style="background-color:  chartreuse;" 
+class="mk">Monu</div> 
+<div class="sk-mk">Sonu and Monu</div> 
+<div class="bk">Bitu</div> 
+<div class="ak-bk">Ankit and Bitu</div> 
+<div class="rk">Rohit</div> 
+</body> 
+</html>
